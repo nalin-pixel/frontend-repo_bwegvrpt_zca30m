@@ -4,7 +4,7 @@ const features = [
   {
     icon: Sparkles,
     title: "Immersive 3D Hero",
-    desc: "Interactive Spline animation with neon gradients and cinematic depth.",
+    desc: "Interactive Spline animation with red neon gradients and cinematic depth.",
   },
   {
     icon: Cpu,
@@ -33,8 +33,8 @@ export default function Features() {
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {features.map(({ icon: Icon, title, desc }) => (
-            <div key={title} className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur shadow-[0_10px_40px_rgba(59,130,246,0.15)]">
-              <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-fuchsia-500 to-blue-500 text-white">
+            <div key={title} className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur shadow-[0_10px_40px_rgba(239,68,68,0.18)]">
+              <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-red-500 to-rose-500 text-white">
                 <Icon size={18} />
               </div>
               <h3 className="text-white font-medium">{title}</h3>

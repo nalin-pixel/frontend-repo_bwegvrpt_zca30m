@@ -6,9 +6,9 @@ import CTA from './components/CTA';
 function App() {
   return (
     <div className="min-h-screen w-full bg-black text-white">
-      {/* Soft starfield and grid accents */}
+      {/* Soft starfield and grid accents with red hue */}
       <div className="pointer-events-none fixed inset-0 opacity-60">
-        <div className="absolute inset-0 bg-[radial-gradient(1200px_600px_at_top_left,rgba(168,85,247,0.25),transparent),radial-gradient(800px_400px_at_bottom_right,rgba(59,130,246,0.18),transparent)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(1200px_600px_at_top_left,rgba(239,68,68,0.28),transparent),radial-gradient(800px_400px_at_bottom_right,rgba(244,63,94,0.22),transparent)]" />
         <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:60px_60px]" />
       </div>
 
